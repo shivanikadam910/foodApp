@@ -1,0 +1,145 @@
+body{
+  font-family: latha;
+  color:black;
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(food.jpg); */
+  height: 100vh;
+  background-color: darkgrey;
+  background-size: cover;
+  background-position: center;
+
+}
+.f1 h2{
+   margin-left: 300px;
+}
+.wd h1{
+  text-align:center;
+  text-transform:uppercase;
+  font-weight: 100px;
+  color: black;
+
+}
+.badge:after {
+  content: attr(count);
+  position: absolute;
+  background: orange;
+  height: 1.3rem;
+  top: 1rem;
+  right: 0.5rem;
+  width: 1.3rem;
+  text-align: center;
+  font-size: 1.2rem;
+  border-radius: 50%;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+
+.mini-cart {
+  float: right;
+}
+
+.mini-cart-button {
+  color: black;
+  border-width: 2px;
+  border-color: black;
+  height: 46px;
+  border-radius: 50px;
+}
+.ab{
+  margin-left: 400px;
+}
+.cd{
+  margin-left: 50px;
+}
+
+.mini-cart-button span {}
+
+.mini-cart-container {
+  min-height: 200px;
+  position: absolute;
+  width: 50%;
+  max-width: 400px;
+  display: none;
+  background: white;
+  box-shadow: 0px 10px 50px -5px rgb(199, 199, 199);
+  top: 50px;
+  right: 10px;
+  z-index: 1;
+}
+
+.mini-cart-container ul {
+  margin-left: 0!important;
+  padding-left: 20px!important;
+  padding-right: 20px!important;
+}
+
+.mini-cart-container ul li {
+  list-style: none;
+  position: relative;
+  border-bottom: 1px solid grey;
+  min-height: 60px;
+}
+
+.mini-cart-container ul li h3 {
+  font-size: 16px;
+}
+
+.mini-cart-container ul li h3 span {
+  font-size: 16px;
+  color: grey;
+  top:10px;
+  position: relative;
+}
+
+.mini-cart-container ul li span {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+.mini-cart-container ul li button{
+  position: absolute;
+  right: 5px;
+  top: 30px;
+}
+
+.mini-cart-open {
+  display: block;
+}
+.row{
+    display: flex;
+    padding: 20px;
+    font-size: 20px;
+}
+button:hover{
+    background-color: green;
+    color: white;
+}
+.head{
+    width: 100%;
+    height:100px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-content: center;
+}
+div div.ab,div.cd {
+    width:20%;
+}
+.succes-message {
+  display: none;
+  position: absolute;
+  height:100px;
+  background:white;
+  width: 200px;
+  z-index: 2;
+  left: 40%;
+  right: 0;
+  top:30%;
+  font-size:20px;
+  box-shadow: 0px 0px 20px -1px rgb(99, 99, 99);
+  text-align:center;
+  padding:20px;
+}

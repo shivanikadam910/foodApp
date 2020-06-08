@@ -1,0 +1,97 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+header
+{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(food.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.header1 img
+{
+  width: 250px;
+  height: 180px;
+  float: left;
+}
+
+.signin
+{
+  width: 320px;
+  height: 420px;
+  background: #000;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+
+.xyz
+{
+  width: 130px;
+  height: 80px;
+  position: absolute;
+  top: -50px;
+  left: calc(23% + 20px);
+}
+
+h1
+{
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.signin p
+{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.signin input
+{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.x
+{
+  border: none;
+  border-bottom: 1px solid white;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+
+
+.z
+{
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #fff;
+  color: #000;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.signin a
+{
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 20px;
+  color: darkgrey;
+}
