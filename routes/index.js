@@ -5,8 +5,8 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
-var http = require('http');
-var fs = require('fs');
+//var http = require('http');
+//var fs = require('fs');
 var path = require('path');
 var mysql = require('mysql');
 
@@ -15,8 +15,8 @@ var mysql = require('mysql');
 var con = mysql.createConnection({
   host: "localhost",
   user: "root",
-  password: "",
-  database: "basicnode"
+  password: "manasvi89",
+  database: "temp_db"
 });
 
 
